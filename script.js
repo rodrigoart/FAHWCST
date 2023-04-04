@@ -36,7 +36,7 @@ createApp({
       if(datos) {
         Swal.fire({
           icon: 'success',
-          title: 'Note Created!',
+          title: 'Search Note Created!',
           showConfirmButton: false,
           timer: 2000,
           footer: 'Now you can paste it on falcon!'
@@ -62,7 +62,6 @@ createApp({
           tekNote += `Dear ${empresa.nombre} \n`;
           tekNote += `As our prior conversation, you agreed to service this work order \n`;
           tekNote += this.getAppmt(empresa);
-          tekNote += `${empresa.informacion} \n`;
           tekNote += `Please be so kind and call the customer as soon as you can. \n`;
           tekNote += `Thank you for your partnership`;
         }
@@ -171,6 +170,7 @@ createApp({
     },
 
     },
+
 
   mounted(){
     for (let i = 0; i < faker.random.number({min:4, max:11}); i++) {
