@@ -62,7 +62,7 @@ createApp({
           tekNote += `Dear ${empresa.nombre} \n`;
           tekNote += `As our prior conversation, you agreed to service this work order \n`;
           tekNote += this.getAppmt(empresa);
-          tekNote += `Please be so kind and call the customer as soon as you can. \n`;
+          tekNote += `Please be kind and call the customer as soon as you can. \n`;
           tekNote += `Thank you for your partnership`;
         }
 
